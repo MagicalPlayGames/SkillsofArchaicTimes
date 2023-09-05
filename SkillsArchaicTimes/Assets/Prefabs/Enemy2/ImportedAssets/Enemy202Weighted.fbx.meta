@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: f4f4a159d3aec8f4289a914612d32321
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -3327135228218231469
+    second: Armature_002|Armature.001|Armature.001|Sun.001Action|Armature.001|Sun.001Act
+  - first:
+      74: 2896802277661053448
+    second: Armature_002|Armature_002Action
+  - first:
+      74: 665845745529898701
+    second: Armature_002|Armature_002|HeadLeft|Animation Base Layer
+  - first:
+      74: 5717278618397819565
+    second: Armature_002|Armature_002|HeadRight|Animation Base Layer
+  - first:
+      74: 1203851227119559972
+    second: Armature_002|Armature_002|Idle|Animation Base Layer
+  - first:
+      74: 198655768716407509
+    second: Armature_002|Armature_002|LeftForwardStance|Animation Base Layer
+  - first:
+      74: -6799788124377906522
+    second: Armature_002|Armature_002|LeftPickup|Animation Base Layer
+  - first:
+      74: -732568417687540930
+    second: Armature_002|Armature_002|LeftSideStance|Animation Base Layer
+  - first:
+      74: 4069476543285367763
+    second: Armature_002|Armature_002|LeftWeaponBlockHigh|Animation Base Layer
+  - first:
+      74: -3215305100043919015
+    second: Armature_002|Armature_002|LeftWeaponBlockMid|Animation Base Layer
+  - first:
+      74: -859170932876926669
+    second: Armature_002|Armature_002|NoLegs|Animation Base Layer
+  - first:
+      74: -8243278678772918977
+    second: Armature_002|Armature_002|RightForwardStance|Animation Base Layer
+  - first:
+      74: -5442817507461783365
+    second: Armature_002|Armature_002|RightPickup|Animation Base Layer
+  - first:
+      74: -6597011184087413864
+    second: Armature_002|Armature_002|RightSideStance|Animation Base Layer
+  - first:
+      74: 7933545330220349327
+    second: Armature_002|Armature_002|RightWeaponBlockHigh|Animation Base Layer
+  - first:
+      74: -2082738759382731828
+    second: Armature_002|Armature_002|RightWeaponBlockMid|Animation Base Layer
+  - first:
+      74: -7876638470744580569
+    second: Armature_002|Armature_002|Running|Animation Base Layer
+  - first:
+      74: 1569449947380217810
+    second: Armature_002|Armature_002|SideStepLeft|Animation Base Layer
+  - first:
+      74: -5392507045000178585
+    second: Armature_002|Armature_002|SideStepRight|Animation Base Layer
+  - first:
+      74: 7573463821908138533
+    second: Armature_002|Armature_002|StabLeft|Animation Base Layer
+  - first:
+      74: -7873915950849443515
+    second: Armature_002|Armature_002|StabRight|Animation Base Layer
+  - first:
+      74: 3174997960592003179
+    second: Armature_002|Armature_002|Stance|Animation Base Layer
+  - first:
+      74: 4538188263138761306
+    second: Armature_002|Armature_002|SwingLeft|Animation Base Layer
+  - first:
+      74: 5054987434204210682
+    second: Armature_002|Armature_002|SwingRight|Animation Base Layer
+  - first:
+      74: -5034703668505156622
+    second: Armature_002|Armature_002|Walking|Animation Base Layer
+  - first:
+      74: -5217304224153014325
+    second: Armature_002|RightPointer3_end|RightPickup|Animation Base Layer
+  - first:
+      74: -9043589511644366703
+    second: Armature_002|Sun.001Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
