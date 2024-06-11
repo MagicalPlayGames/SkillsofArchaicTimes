@@ -1,0 +1,105 @@
+Oculus Rift Audience likes:
+Interactive senarios
+Immersion
+
+Target Audiences:
+ Innovated interactions
+
+ Like games
+   GORE
+   Skyrim
+   Sword Art Online
+		(What do they do well. What's missing)
+		
+Perfect gamer:
+Likes emmersive
+Loves to feel awesome about what they can do in gamer
+Will get addicted (ADHD) (tell friends, buy dlc, play)
+Has many things you can do at a given time that aren't overwhelming
+Short tutorial (you can see controllers for new VR peeps)
+
+Possible Features:
+GREAT VR GRAPHICS/AUDIO/CONTROL OPTIONS
+Personal Bubble?
+subtitles (good audio lengths)?
+Portals? (For fast travel?)
+    Maybe you go to portal dimension, and the gamer
+	loads the next scene as you walk through
+NO HORSES FOR FAST TRAVEL
+Scripted movement (especially for spells)
+Fixed movement for some interactables
+
+
+NEEDS:
+hand gestures
+good movements for all
+Can be used without walking irl
+pre-set options
+fade to black on teleportation (adjustable fade speed)
+
+
+
+
+
+How to Enable VR in UNITY:
+
+
+
+CODE:
+
+//Pointers show where the player is aimed
+//This one is in a curve
+VRTK>Prefabs>Pointers>ObjectPointerCurved
+	Follow Sources - controllers
+OVRInputTouchAction - can see input of controllers
+	Activation Action - TouchAction active
+VRTK event system
+	Can use arrow by putting in valid container
+
+//Teleportation movements
+VRTK>Prefabs>Locomotion>Teleporters>Teleporter.Instant
+								   > Teleporter.Dash								   
+	Target = Player
+	Offset = HeadsetAllias
+	camera validty = scene camera
+	target validty = use OVRInputTouchAction
+	
+//Limit Teleportation
+Teleporter.Instant and Curve
+Target validity = AnyLayer Rule added to Teleporter.Instant
+
+//ALWAYS LOOK FOR LIBRARIES THAT HAVE REQUIREMENTS
+//Use VRTK Docs
+//Input for Thumbsticks
+OVRInputAxis2DAction
+
+
+HANDS:
+//Hands already in VRTK?
+With Hand Script and OVR Grabber
+Needs to be in ignore ray cast collision layer
+//  can make own OVR Grabber
+
+//Grabbing4Hands
+Interactor Prefab onto controller alias
+!!!!in grab action, on interactor, insert new touch action
+
+//Grabbing4Interactions
+//Used to be able to pass between hands
+Interactable.Primary_Grab.Secondary_Swap
+!The problem will be to make things good grab looking!
+
+//Throwing
+OVRAnchorVelocityEsitmator
+Put on controlers and head
+and tracking space
+
+//Better Physics grab interactions
+//Interactable.GrabAction.FollowAction
+set Follow Tracking to Follow RigidBody
+and change timestep for physics VV
+Edit>Project Settings>Time>Fixed Timestep
+
+***OBJ through hand, hide hand, or custom hand animations***
+***Can get objects stuck and unstuckable if the player is "too weak"***
+
