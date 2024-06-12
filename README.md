@@ -3,4 +3,7 @@ This is a VR Game showcasing VR in Unity. It uses XRI Toolkit, and is a great pa
 
 ## Installation
 Download the APK and install into your VR
+
+## Demo Trailer
+See SAT/Videos/DemoTrailer
 ![Enviornment 0](https://github.com/MagicalPlayGames/SkillsofArchaicTimes/assets/62050440/86587e1f-cdfd-4fcd-9b5f-427ac4b4b653)
